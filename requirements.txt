@@ -1,0 +1,12 @@
+# 产品评分分析程序依赖
+# Python版本要求：3.9+
+
+# 数据处理
+polars>=0.20.0
+
+# 图表生成
+plotly>=5.18.0
+kaleido>=0.2.1  # plotly导出图片依赖
+
+# PDF报告生成
+reportlab>=4.0.0
